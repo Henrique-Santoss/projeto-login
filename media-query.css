@@ -1,3 +1,60 @@
 @charset "UTF-8";
 
-/* Configurações das outras midias */
+/* Todas as demais mídias*/
+
+/* Typical Device Breakpoints em 2024
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 769px até 992px
+Desktop: de 993px até 1200px
+Grandes Telas: maiores de 1201px
+*/
+
+:root{
+    --cor01: #49a09d; /* Verde */
+    --cor02: #5f2c82; /* Lilás */
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+    }
+
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        height: 100vh;
+        width: 30%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    body{
+        background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+    }
+
+    section#login{
+        width: 992px;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        height: 100%;
+        width: 50%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+}
