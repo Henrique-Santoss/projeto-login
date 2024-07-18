@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Configurações gerais */
+
+/*
+    Paleta de Cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+:root{
+    --cor01: #49a09d; /* Verde */
+    --cor02: #5f2c82; /* Lilás */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-image: linear-gradient(bottom, var(--cor01), var(--cor02));
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+
+div#imagem{
+    display: inline-block;
+}
