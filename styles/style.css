@@ -49,7 +49,7 @@ section#login{
 }
 
 section#login > div#imagem{
-    background: var(--cor02) url(../imagens/lobby.jpg) no-repeat;
+    background: var(--cor02) url(../images/lobby.jpg) no-repeat;
     background-position: right bottom;
     background-size: cover;
     display: block;
@@ -99,7 +99,7 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-13px);
+    transform: translateY(-11.9px);
 }
 
 div.campo > input:focus-within{
