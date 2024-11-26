@@ -20,7 +20,7 @@ O projeto é estruturado da seguinte forma:
 ### index.html
 Este arquivo contém a estrutura básica da página de login, incluindo os elementos HTML necessários para o formulário, botões e imagem.
 
-### estilos/style.css
+### styles/style.css
 Este arquivo contém as regras de estilo gerais, incluindo o design responsivo e a estilização dos elementos do formulário e da imagem.
 
 ## Como Executar o Projeto
